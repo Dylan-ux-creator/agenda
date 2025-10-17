@@ -28,7 +28,7 @@
       try {
 
         $stmt->execute();
-        $_SESSION["msg"] = "Contato criado com sucesso!";
+        $_SESSION["msg"] = "Pedido feito com sucesso!";
     
       } catch(PDOException $e) {
         // erro na conexão
@@ -57,7 +57,7 @@
       try {
 
         $stmt->execute();
-        $_SESSION["msg"] = "Contato atualizado com sucesso!";
+        $_SESSION["msg"] = "Pedido atualizado com sucesso!";
     
       } catch(PDOException $e) {
         // erro na conexão
@@ -78,7 +78,7 @@
       try {
 
         $stmt->execute();
-        $_SESSION["msg"] = "Contato removido com sucesso!";
+        $_SESSION["msg"] = "Pedido removido com sucesso!";
     
       } catch(PDOException $e) {
         // erro na conexão

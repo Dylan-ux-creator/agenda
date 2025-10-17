@@ -5,14 +5,14 @@
     <?php if(isset($printMsg) && $printMsg != ''): ?>
       <p id="msg"><?= $printMsg ?></p>
     <?php endif; ?>
-    <h1 id="main-title">Minha Agenda</h1>
+    <h1 id="main-title">Cone trufado</h1>
     <?php if(count($contacts) > 0): ?>
       <table class="table" id="contacts-table">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nome</th>
-            <th scope="col">Telefone</th>
+            <th scope="col">Quantidade</th>
+            <th scope="col">Clientes</th>
+            <th scope="col">Pedidos</th>
             <th scope="col"></th>
           </tr>
         </thead>

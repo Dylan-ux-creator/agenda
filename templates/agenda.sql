@@ -42,8 +42,8 @@ CREATE TABLE `contacts` (
 --
 
 INSERT INTO `contacts` (`id`, `name`, `phone`, `observations`) VALUES
-(1, 'Ignacio Neto', '11999998888', 'Pessoal'),
-(4, 'Valéria Uber', '(11)9999:4698', 'Pagar');
+(1, 'Ignacio Neto', 'Brigadeiro', 'para 10/11'),
+(4, 'Valéria', 'Prestígio', 'para 23/11');
 
 --
 -- Índices para tabelas despejadas
